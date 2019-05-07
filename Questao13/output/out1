@@ -1,0 +1,30 @@
+A ordem de impressão dos serviços1 deve ser a seguinte: 
+Serviço 6
+    Tempo: 3; Peso: 21
+
+Serviço 4
+    Tempo: 4; Peso: 14
+
+Serviço 1
+    Tempo: 1.25; Peso: 2.75
+
+Serviço 2
+    Tempo: 8; Peso: 16
+
+Serviço 3
+    Tempo: 2.9; Peso: 3.25
+
+Serviço 9
+    Tempo: 25; Peso: 24
+
+Serviço 8
+    Tempo: 44; Peso: 35
+
+Serviço 7
+    Tempo: 27; Peso: 14
+
+Serviço 5
+    Tempo: 26; Peso: 12
+
+
+Tempo de conclusão de serviços: 7956.68
