@@ -37,11 +37,11 @@ int main(){
 	priority_queue<Tarefa> tarefas;
 	cerr << "Defina os horários do serviço a partir do seguinte formato:\n";
 	for(int i = 0; i<quantidade_de_servicos; ++i){
-		cerr << "(h X.M, h X.M)\n";
+		cerr << "(h X.M. , h X.M. )\n";
 		int inicio, fim;
 		char am_pm_inicio, am_pm_fim;
 		limpa_lixo();
-		scanf("(%d %c.%*c, %d %c.%*c)", &inicio, &am_pm_inicio, &fim, &am_pm_fim);
+		scanf("(%d %c.%*c. , %d %c.%*c. )", &inicio, &am_pm_inicio, &fim, &am_pm_fim);
 		tarefas.push(Tarefa(converte_horario(inicio, am_pm_inicio),
 			converte_horario(fim, am_pm_fim)));
 	}
