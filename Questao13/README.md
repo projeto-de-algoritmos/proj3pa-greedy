@@ -53,14 +53,20 @@ Desse modo, foi decidido que usar o peso/tempo em ordem decrescente seria a melh
 
 #### Algoritmo
 O algoritmo desenvolvido pode ser encontrado no arquivo ```exercicio13.cpp```, ele foi feito especificamente para esse problema e foi testado a partir dos casos de teste guardados na pasta ```input```, o resultado dos mesmos podem ser vistos na pasta ```output```.
+
 Para compilar o código foram usadas as seguintes tags:
 ```-std=c++11 -O2 -Wall```
+
 O código também foi desenvolvido para que um usuário pudesse testá-lo sem muitas dificuldades, porém não foi feita nenhuma validação de entrada.
+
 Por fim, para utilizá-lo basta seguir os passos:
 ```$g++ -std=c++11 -O2 -Wall exercicio13.cpp```
 ```$./a.out```
+
 Caso queira utilizar um dos casos de testes já prontos basta utilizar o comando:
+
 ```$./a.out < input/in*```, onde * deve ser substituído pelo valor 1, 2 ou 3.
+
 Lembrando que o terminal deve estar no diretório onde se encontra o arquivo .cpp.
 
 > Os teste das outras possibilidades de ordenação podem ser encontrados ao final do algoritmo em forma de comentário.
