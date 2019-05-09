@@ -1,3 +1,4 @@
+22. Consider the Minimum Spanning Tree Problem on an undirected graph G = (V , E), with a cost c e ≥ 0 on each edge, where the costs may not all be different. If the costs are not all distinct, there can in general be many distinct minimum-cost solutions. Suppose we are given a spanning tree T ⊆ E with the guarantee that for every e ∈ T, e belongs to some minimum-cost spanning tree in G. Can we conclude that T itself must be a minimum-cost spanning tree in G? Give a proof or a counterexample with explanation.
 
 #### Contextualização
 Analisando primeiro a possibilidade de que T não deve ser uma árvore geradora mínima, era necessário criar um contra-exemplo. Para isso, foi gerado um grafo com 5 nós e 5 arestas, tal que sua lista de adjacências pode ser definida da seguinte forma:
